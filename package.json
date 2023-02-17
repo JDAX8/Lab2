@@ -1,0 +1,22 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDAX8/Lab2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDAX8/Lab2/issues"
+  },
+  "homepage": "https://github.com/JDAX8/Lab2#readme",
+  "dependencies": {
+    "server": "^1.0.38"
+  }
+}
