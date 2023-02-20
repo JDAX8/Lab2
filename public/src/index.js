@@ -12,7 +12,7 @@ class AppContainer extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = `
-    <custom-message message="Hellooooo guys"></custom-message>
+    <custom-message></custom-message>
     
     <my-counter></my-counter>
     `;

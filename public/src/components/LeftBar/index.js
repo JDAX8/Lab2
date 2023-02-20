@@ -63,7 +63,7 @@ class CustomMessage extends HTMLElement {
 
       <link rel="stylesheet" href="./src/components/leftBar/index.css">
 
-      <p>${this.message || 'Hello, world'}</p>
+    
       `;
   }
 }
