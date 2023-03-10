@@ -14,7 +14,7 @@ class AppContainer extends HTMLElement {
     this.shadowRoot.innerHTML = `
 
     <custom-message></custom-message>
-    
+    <custom-bar></custom-bar>
     
     `
     ;
