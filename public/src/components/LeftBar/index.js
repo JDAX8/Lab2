@@ -25,10 +25,12 @@ class CustomMessage extends HTMLElement {
      <section id= "botones">
       <div id="div1">
       <p id="subtitulo">Feeds</p>
-      <button id= "principal">
+      <button id= "principal"><img id="home" src="./fotos/icons8-página-principal-48.png"
+      width="20px">
+      
       principal
       </button>
-      <button id="principal">
+      <button id="principal"><img src="./fotos/icons8-calificaciones-30.png">
       popular
       </button>
       

@@ -30,7 +30,7 @@
     color: black;
     background-color: transparent;
     border: 0px;
-   
+   width: 200px;
     
     padding-top: 40px;
 }
@@ -38,17 +38,26 @@
 #section2{
     background-color: transparent;
     border: 0px;
+    width: 200px;
     
 }
-#subtitulo{
-    font: size 10px; 
-    padding-bottom: -30px;
-}
+
 #subtitulo2{
-    font-size: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #topic{
     width: 200px;
     background-color: transparent;
     border: 0px;
+}
+#subtitulo{
+    padding-top: 20px;
+    font-size: 15px; 
+    padding-bottom: -100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home{
+    size: 5px;
 }
