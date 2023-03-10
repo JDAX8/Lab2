@@ -19,21 +19,21 @@ class Searchbar extends HTMLElement{
 
     render(){
         this.shadowRoot.innerHTML = `
-        <nav class="navbar">
-        <div class="navbar-left">
-        <a href="#" class="navbar-home">Inicio</a>
-        </div>
-        <div class="navbar-center">
-        <form class="navbar-search">
-        <input type="text" placeholder="Buscar...">
-        <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-        </div>
-        <div class="navbar-right">
-        <a href="#" class="navbar-link">Registrarse</a>
-        <a href="#" class="navbar-link">Iniciar sesión</a>
-        <a href="#" class="navbar-link"><i class="fa fa-cog"></i></a>
-        </div>
+            <nav class="navbar">
+            <a href="#" class="navbar-brand"><img class="Rima" src="https://1000marcas.net/wp-content/uploads/2021/04/Reddit-logo.png" alt=""></a>
+            <div class="navbar-search">
+            <form>
+                <input type="text" placeholder="Busca en Reddit">
+                <button type="submit">Buscar</button>
+            </form>
+            </div>
+            <div class="navbar-menu">
+            <ul>
+                <li><button><a href="#">Registrarse</a></button></li>
+                <li><button><a href="#">Iniciar sesión</a></button></li>
+                <li><a href="#">Configuración</a></li>
+            </ul>
+            </div>
         </nav>
         `
         
