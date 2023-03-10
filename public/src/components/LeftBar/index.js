@@ -6,7 +6,7 @@ class CustomMessage extends HTMLElement {
 
   constructor() {
       super();
-      this.attachShadow({ mode: "open" }); // encapsulation, mode open means this is reachable for js on your web
+      this.attachShadow({ mode: "open" }); 
   }
 
   connectedCallback() {
@@ -20,51 +20,49 @@ class CustomMessage extends HTMLElement {
 
   render(){
       this.shadowRoot.innerHTML = `
-   
-      <div>
-      <section>
-      <button>
+      <link rel="stylesheet" href="./src/components/LeftBar/index.css">
+
+     <section id= "botones">
+      <div id="div1">
+      <p id="subtitulo">Feeds</p>
+      <button id= "principal">
       principal
       </button>
-      <button>
+      <button id="principal">
       popular
       </button>
-      </section>
+      
       </div>
 
-
-      <div>
-      <section>
-      <button>
+      <div id="div2">
+      <p id="subtitulo2">Temas</p>
+      <button id="section2">
       Gaming
       </button>
-      <button>
+      <button id="section2">
       Sports
       </button>
-      <button>
+      <button id="section2">
      Business
       </button>
-      <button>
+      <button id="section2">
      Crypto
       </button>
-      <button>
+      <button id="section2">
      Televisión
       </button>
-      <button>
+      <button id="section2">
      Celebrity
       </button>
-      <button>
+      <button id="topic">
      More topics...
       </button>
-      </section>
+      
       </div>
-
-
-
-      <link rel="stylesheet" href="./src/components/leftBar/index.css">
-
-    
-      `;
+      </section>
+      `
+         
+      ;
   }
 }
 
