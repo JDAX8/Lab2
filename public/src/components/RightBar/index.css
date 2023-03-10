@@ -1,0 +1,92 @@
+#botones{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border-color: black;
+    display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 999px;
+  border: 5px;
+padding-right: -50px;
+
+  
+    
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70px;
+    padding-bottom: 50px;
+    padding-left: -30px;
+    
+
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    padding-bottom: 320px;
+
+}
+
+#principal{
+    color: black;
+    background-color: transparent;
+    border: 0px;
+   width: 200px;
+   align-items:center;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#section2{
+    background-color: transparent;
+    border: 0px;
+    width: 200px;
+    padding-top: 15px;
+    font-size: 20px;
+    padding: 8px 4px;
+
+    
+}
+
+#subtitulo2{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#topic{
+    width: 200px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    padding: 8px 4px;
+}
+#subtitulo{
+    padding-top: 20px;
+    font-size: 15px; 
+    padding-bottom: -100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home{
+    size: 5px;
+}
+
+#div3{
+    padding-left: 40px;
+}
+#Reddit{
+    background-color: rgb(51, 51, 248);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: rgb(51, 51, 248);
+    
+
+   
+}

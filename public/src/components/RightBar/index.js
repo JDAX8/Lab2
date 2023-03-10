@@ -21,6 +21,9 @@ class CustomBar extends HTMLElement {
     render(){
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/LeftBar/index.css">
+
+
+        <div id = "all">
   
        <section id= "botones">
         <div id="div1">
@@ -63,6 +66,7 @@ class CustomBar extends HTMLElement {
         
         </div>
         </section>
+        </div>
         `
            
         ;
