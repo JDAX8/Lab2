@@ -20,7 +20,7 @@ class CustomBar extends HTMLElement {
   
     render(){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./src/components/LeftBar/index.css">
+        <link rel="stylesheet" href="./src/components/RightBar/index.css">
 
 
         <div id = "all">
