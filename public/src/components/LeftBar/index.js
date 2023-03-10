@@ -60,6 +60,9 @@ class CustomMessage extends HTMLElement {
       </button>
       
       </div>
+      <div id="div3">
+      <button id = "Reddit"> Unete a Reddit</button>
+      </div>
       </section>
       `
          
